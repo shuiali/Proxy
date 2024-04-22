@@ -346,7 +346,7 @@ In general putem sa urmam aceasta instructiune, doar ca ea se bazeaza pe modemur
     
     `crontab -e`
     
-    - `/2 * * * * /root/reconect.sh`
+    - `2 * * * * /root/reconect.sh`
 - **Conectarea la proxy**
     
     *Modificati cu ale voastre*
