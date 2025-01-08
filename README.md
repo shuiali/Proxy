@@ -45,7 +45,7 @@ Adaugator dar nustiu daca neparat: `AT+QCFG="nwscanmode",0,1`
 
 - Pentru a trimite comenzi AT utilizam aceasta comanda
     
-    `echo -e "ATI\r\n" > /dev/ttyUSB3 | cat /dev/ttyUSB3` - modificam locul evidentiat cu comanda dorita. Se poate si fara comanda `cat` , insa asa vedem ce raspunde modemul.
+    `echo -e "ATI\r\n" > /dev/ttyUSB3 | cat /dev/ttyUSB3` sau -- busybox microcom -s 115200 /dev/ttyUSB3 - modificam locul evidentiat cu comanda dorita. Se poate si fara comanda `cat` , insa asa vedem ce raspunde modemul.
     
 - Comenzile AT
     
